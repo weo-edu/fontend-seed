@@ -1,0 +1,32 @@
+{
+  "name": "frontend-see",
+  "version": "0.0.1",
+  "description": "generate a new angularjs projects with easy bower, component and npm installs",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "napa"
+  },
+  "keywords": [
+    "angularjs",
+    "seed",
+    "bower",
+    "component"
+  ],
+  "author": "joshrtay@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt": "~0.4.2",
+    "browserify": "~2.36.0",
+    "grunt-browserify": "~1.2.11",
+    "napa": "~0.2.0"
+  },
+  "napa": {
+    "angular": "angular/bower-angular",
+    "angular-route": "angular/bower-angular-route"
+  },
+  "dependencies": {
+    "express": "~3.4.6"
+  }
+}
